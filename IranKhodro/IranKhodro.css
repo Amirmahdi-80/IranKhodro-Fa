@@ -1,0 +1,296 @@
+@font-face {
+    font-family: 'Yekan';
+    src:url("fonts/Yekan.woff") format("woff"),
+    url("fonts/Yekan.svg") format("svg");
+}
+body{
+    font-family: 'Yekan';
+    margin: 0;
+}
+.No1{ 
+    font-family: 'Yekan';
+    width: 100%;
+    height: 30vh;
+    direction: rtl;
+}
+.No1 p{
+    font-weight: bold;
+    color: blue;
+    font-size: 25px;
+    margin-right: 20px;
+    margin-top:15px ;
+}
+.No2{
+    margin-bottom: 0px;
+    margin-right: 20px;
+    margin-top:15px ;
+    color: rgb(0, 102, 255);
+    font-size: 18px;
+    font-weight: bold;
+}
+#No3{
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: red;
+    font-size: 18px;
+    font-weight: 18px;
+}
+.No5{
+    background-color: gainsboro;
+    width: 100%;
+    height: 70vh;
+    border-bottom:10px solid gray ;
+    flex-wrap: wrap;
+    margin: 0;
+    display: flex;
+    column-gap: 0px;
+    row-gap: 0px;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: center;
+}
+.No5 a{
+    height: 60px;
+    width: 380px;
+}
+.No5 li{
+    padding: 10px  0px;
+    display: flex;
+    align-items: center;
+    direction: rtl;
+    justify-content: space-between;
+    border: none;
+    background-color: grey;
+    color: rgb(95, 88, 88) ;
+    border-radius: 20px;
+    background-color: rgb(191, 201, 202) ;
+    height: 50px;
+    width: 360px;
+    text-align: right;
+    font-size: 17px;
+    font-weight: bold;
+    padding-right: 30px;
+    padding-left: 20px;
+}
+.No5 img{
+    transform: translateY(10px);
+    width: 120px;
+    height: 70px;
+}
+.No5 li:hover{
+    background-color: rgb(133, 157, 161) 
+}
+footer{
+    direction: rtl;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Yekan';
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(70, 70, 70);
+}
+.No6{
+    width: 350px;
+    height: 100%;
+}
+.No6 h1{
+    color: rgb(0, 102, 255);
+    border-bottom: 2px solid rgb(0, 102, 255);
+    font-size: 20px;
+}
+.No7{
+    list-style-type: none;
+    color: rgb(166, 166, 166);
+    font-weight: bold;
+    font-size: 12px;
+    padding-right: 0px;
+}
+.No7 li{
+    margin-top: 7px;
+}
+.No8{
+    text-decoration: none;
+    color: rgb(166, 166, 166);
+    font-size: 12px;
+}
+.No8:hover{
+    color: rgb(0, 102, 255);
+    transition: 0.5s;
+}
+.Download{
+    width: 100px;
+    height: 50px;
+    margin-top:600px ;
+    margin-left: 1482px;
+    z-index: 2;
+    transform: translateX(190px);
+    position: fixed;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+.Download:hover{
+    transform: translateX(0px);
+    transition: 1s;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 95px;
+    border-bottom: 10px solid gainsboro;
+}
+header p{
+    color:#10a4ce;
+}
+.No9{
+    color:rgb(70, 70, 70);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.No9 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 95px;
+    border-radius: 5px;
+}
+.No9 i{
+    color:rgb(145, 154, 156);
+    font-size: 35px;
+}
+.No10{
+    color:rgb(145, 154, 156);
+    margin-top: 0;
+    text-align: center;
+    width: 150px;
+    font-size: 15px;
+    display: block;
+}
+header img{
+    margin-left: 600px;
+}
+#No11{
+    box-shadow: inset 0px 40px 40px 0px rgb(192,192,192);
+}
+.No11{
+    direction: rtl;
+    padding-right: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #10a4ce;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Yekan';
+    list-style-type: none;
+    background-color: white;
+}
+.No12{
+    color: #10a4ce;
+}
+.No13{
+    height: 8vh;
+    box-shadow: inset 0px -5px 10px 0px gainsboro;
+    border-bottom: 2px solid gainsboro;
+}
+.No11 i{
+    margin-left: 10px;
+    font-size: 40px;
+}
+.No11 li{
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.No14{
+    width: 100%;
+    height: 32vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: No1;
+    animation-timing-function: linear;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+.No15{
+    width: 100%;
+    height: 34vh;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: gainsboro;
+}
+@keyframes No1 {
+    0%{
+        background-image: url(Images/10.webp);
+    }
+    20%{
+        background-image: url(Images/11.webp);
+    }
+    40%{
+        background-image: url(Images/12.webp);
+    }
+    60%{
+        background-image: url(Images/13.webp);
+    }
+    80%{
+        background-image: url(Images/14.webp);
+    }
+    100%{
+        background-image: url(Images/15.webp);
+    }
+}
+@media only screen and (max-width:992px){
+    .No5 li{
+        width: 300px;
+        height: 50px;
+    }
+    .No5{
+        width: 100%;
+        height: 70vh;
+    }
+}
+@media only screen and (max-width:830px){
+    .No5 li{
+        width: 100px;
+        height: 50px;
+    }
+    .No5{
+        width: 100%;
+        height: 120vh;
+    }
+}
+@media only screen and (max-width:1350px){
+    .No1{
+        width: 100%;
+        height: 40vh;
+    }
+}
+@media only screen and (max-width:750px){
+    .No1{
+        width: 100%;
+        height: 50vh;
+    }
+}
+@media only screen and (max-width:520px){
+    .No1{
+        width: 100%;
+        height: 60vh;
+    }
+}
